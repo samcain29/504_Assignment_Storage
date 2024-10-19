@@ -12,14 +12,25 @@ This assignment explores how to upload files to Azure Blob Storage and Google Cl
 
 #### **Steps:**
 1. Logged into the Azure Portal and created a new **Storage Account**.
+
+![image](https://github.com/user-attachments/assets/853b9b62-d45d-488a-bea7-18d865bfc411)
+   
 2. Created a **Blob container** within the Storage Account.
 3. Uploaded a sample file (`cat.jpg`) to the Blob container using the Azure portal GUI.
+
+![image](https://github.com/user-attachments/assets/645e6b16-eb77-411b-97cd-a427436ff628)
+
 
 ### **1.2 Google Cloud Storage**
 
 #### **Steps:**
 1. Logged into Google Cloud Console and created a new **Cloud Storage bucket**.
-2. Uploaded the same sample file (`cat.jpg`) to the bucket using the GCP Console GUI.
+
+![image](https://github.com/user-attachments/assets/7b1f32fc-33eb-4630-b559-1b6b7d2817a0)
+   
+3. Uploaded the same sample file (`cat.jpg`) to the bucket using the GCP Console GUI.
+
+![image](https://github.com/user-attachments/assets/0fac297f-bc2f-465b-81a7-5ad3d1a66ba3)
 
 ---
 
@@ -55,7 +66,12 @@ print("File uploaded successfully!")
 1. Used **Google Cloud Shell** as the terminal environment.
 2. Installed the `azure-storage-blob` Python library.
 3. Created a Python script to upload a file to Azure Blob Storage.
+
+![image](https://github.com/user-attachments/assets/bcac03c7-836b-4722-873e-0bbb6177b537)
+
 4. Uploaded the file (`eye tumor.png`) from the Cloud Shell environment to Azure Blob Storage using the provided connection string and container name.
+
+![image](https://github.com/user-attachments/assets/33afce56-a776-497a-9df5-edd72c46b6c2)
 
 ### **2.2 GCP Cloud Storage**
 
@@ -85,7 +101,12 @@ print("File uploaded successfully to GCP!")
 #### **Steps:**
 1. Installed the `google-cloud-storage` Python library in Google Cloud Shell.
 2. Created a Python script to upload a file to GCP Cloud Storage.
+
+![image](https://github.com/user-attachments/assets/58a8c104-35a0-4820-a6fe-6ac5eb004d3c)
+
 3. Uploaded the same file (`eye tumor.png`) to GCP Cloud Storage from the Cloud Shell environment.
+
+![image](https://github.com/user-attachments/assets/7dd3b529-61b8-4667-9ee5-4ee2aafb530f)
 
 ---
 
